@@ -1,0 +1,84 @@
+body {
+  color: rgb(20,20,20);
+  background-color: #23AADF;
+   line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  }
+
+
+h1
+{
+  font-family: 'Arial', cursive;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: strong;
+  color: #23AADF;
+   line-height: 50px;
+  }
+
+h3
+{
+  font-family: 'Arial', cursive;
+  font-size: 1em;
+  text-align: center;
+  font-weight: strong;
+  color: #23AADF;
+   line-height: 50px;
+  }
+
+p, ul
+{ font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+   text-align: center;
+  color: #23AADF;
+  list-style-type: none;
+  }
+
+tr, th, td
+{ font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #23AADF;
+  }
+
+#profilpicture{
+  position:fixed;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a{
+  color: #23AADF;
+  text-decoration: none;
+  transition: color 0.7s linear;
+}
+
+a:hover{
+  color: white;
+}
+
+.container {
+  width: 420px;
+  margin: 0 auto;
+  background: #333;
+  border: 50px;
+  border-radius: 5%;
+
+}
+
+@media (max-width: 968px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (min-width: 968px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
